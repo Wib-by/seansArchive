@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on sean&#39;s archive</title>
-    <link>https://www.example.com/posts/</link>
+    <link>https://seans-archive.vercel.app/posts/</link>
     <description>Recent content in Posts on sean&#39;s archive</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 06 Mar 2026 21:06:21 +0800</lastBuildDate>
-    <atom:link href="https://www.example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://seans-archive.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yet Again</title>
-      <link>https://www.example.com/posts/yet-again/</link>
+      <link>https://seans-archive.vercel.app/posts/yet-again/</link>
       <pubDate>Fri, 06 Mar 2026 21:06:21 +0800</pubDate>
-      <guid>https://www.example.com/posts/yet-again/</guid>
+      <guid>https://seans-archive.vercel.app/posts/yet-again/</guid>
       <description>Things wouldn&amp;rsquo;t just let me live in peace As you might&amp;rsquo;ve known already, my mind has been a cluttered mess since God knows when. A lot has been bothering me and I&amp;rsquo;m tired of it.&#xA;People, family even, makes me lose hope of what morals are supposed to be. They tell me to not get pressured while putting the name as to start a legacy, or to end a bad one, somehow.</description>
     </item>
   </channel>

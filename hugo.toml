@@ -1,4 +1,4 @@
-baseurl = "https://www.example.com/"
+baseurl = "https://seans-archive.vercel.app/"
 title = "sean's archive"
 author = "Sean"
 canonifyurls = true

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on sean&#39;s archive</title>
-    <link>https://www.example.com/tags/</link>
+    <link>https://seans-archive.vercel.app/tags/</link>
     <description>Recent content in Tags on sean&#39;s archive</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://www.example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://seans-archive.vercel.app/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
