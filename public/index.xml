@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Black &amp; Light</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Black &amp; Light</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Mar 2026 21:06:21 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yet Again</title>
+      <link>http://localhost:1313/posts/yet-again/</link>
+      <pubDate>Fri, 06 Mar 2026 21:06:21 +0800</pubDate>
+      <guid>http://localhost:1313/posts/yet-again/</guid>
+      <description>Things wouldn&amp;rsquo;t just let me live in peace As you might&amp;rsquo;ve known already, my mind has been a cluttered mess since God knows when. A lot has been bothering me and I&amp;rsquo;m tired of it.&#xA;People, family even, makes me lose hope of what morals are supposed to be. They tell me to not get pressured while putting the name as to start a legacy, or to end a bad one, somehow.</description>
+    </item>
+  </channel>
+</rss>

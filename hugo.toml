@@ -1,0 +1,13 @@
+baseurl = "https://www.example.com/"
+title = "Black & Light"
+author = "Sean"
+canonifyurls = true
+languagecode = "en"
+theme = "black-and-light"
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "sean's archive"
+  disableWebFonts = false

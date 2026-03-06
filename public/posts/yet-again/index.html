@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <meta name="description" content="">
+
+    
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400&display=swap" rel="stylesheet" media="print" type="text/css" onload="this.media='all'">
+    
+
+    <title>
+      
+      
+         Yet Again 
+      
+    </title>
+    <link rel="canonical" href="http://localhost:1313/posts/yet-again/">
+
+    <style>
+  * {
+    border:0;
+    font:inherit;
+    font-size:100%;
+    vertical-align:baseline;
+    margin:0;
+    padding:0;
+    color: black;
+    text-decoration-skip: ink;
+  }
+
+  body {
+    font-family:'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size:17px;
+    line-height:160%;
+    color:#1d1313;
+    max-width:700px;
+    margin:auto;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a img {
+    border:none;
+  }
+
+  img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify { float: left; }
+  .right-justify { float:right; }
+
+  pre, code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #f7f7f7;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,q,em,dfn {
+    font-style:italic;
+  }
+
+  .sans,html .gist .gist-file .gist-meta {
+    font-family:"Open Sans","Myriad Pro",Myriad,sans-serif;
+  }
+
+  .mono,pre,code,tt,p code,li code {
+    font-family:Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+  }
+
+  .heading,.serif,h1,h2,h3 {
+    font-family:"Old Standard TT",serif;
+  }
+
+  strong {
+    font-weight:600;
+  }
+
+  q:before {
+    content:"\201C";
+  }
+
+  q:after {
+    content:"\201D";
+  }
+
+  del,s {
+    text-decoration:line-through;
+  }
+
+  blockquote {
+    font-family:"Old Standard TT",serif;
+    text-align:center;
+    padding:50px;
+  }
+
+  blockquote p {
+    display:inline-block;
+    font-style:italic;
+  }
+
+  blockquote:before,blockquote:after {
+    font-family:"Old Standard TT",serif;
+    content:'\201C';
+    font-size:35px;
+    color:#403c3b;
+  }
+
+  blockquote:after {
+    content:'\201D';
+  }
+
+  hr {
+    width:40%;
+    height: 1px;
+    background:#403c3b;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size:35px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+
+  h3 {
+    font-size:22px;
+    margin-top:18px;
+  }
+
+  h1 a,h2 a,h3 a {
+    text-decoration:none;
+  }
+
+  h1,h2 {
+    margin-top:28px;
+  }
+
+  #sub-header, .date {
+    color:#403c3b;
+    font-size:13px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size:35px;
+    color:#1d1313;
+    line-height:120%;
+  }
+
+  .posts_listing a,#nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  ul li {
+    margin-left: 5px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  ul li:before {
+    content:"\00BB \0020";
+  }
+
+  #nav ul li:before, .posts_listing li:before {
+    content:'';
+    margin-right:0;
+  }
+
+  #content {
+    text-align:left;
+    width:100%;
+    font-size:15px;
+    padding:60px 0 80px;
+  }
+
+  #content h1,#content h2 {
+    margin-bottom:5px;
+  }
+
+  #content h2 {
+    font-size:25px;
+  }
+
+  #content .entry-content {
+    margin-top:15px;
+  }
+
+  #content .date {
+    margin-left:3px;
+  }
+
+  #content h1 {
+    font-size:30px;
+  }
+
+  .highlight {
+    margin: 10px 0;
+  }
+
+  .posts_listing {
+    margin:0 0 50px;
+  }
+
+  .posts_listing li {
+    margin:0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,#nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align:center;
+    position:static;
+    margin-top:60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type:none;
+    display:table-cell;
+    font-size:15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(1) {
+    margin-right:0.5em;;
+  }
+
+  #links :nth-child(2) {
+    margin-left:0.5em;;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family:"Old Standard TT",serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:28px;
+    }
+
+    #nav li {
+      font-size:13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:50px;
+      font-size:14px;
+    }
+
+    #content h1 {
+      font-size:25px;
+    }
+
+    #content h2 {
+      font-size:22px;
+    }
+
+    .posts_listing li div {
+      font-size:12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:22px;
+    }
+
+    #nav li {
+      font-size:12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:20px;
+      font-size:12px;
+    }
+
+    #content h1 {
+      font-size:20px;
+    }
+
+    #content h2 {
+      font-size:18px;
+    }
+
+    .posts_listing li div{
+      font-size:12px;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    *, #nav h1 a {
+      color: #FDFDFD;
+    }
+
+    body {
+      background: #121212;
+    }
+
+    pre, code {
+      background-color: #262626;
+    }
+
+    #sub-header, .date {
+      color: #BABABA;
+    }
+
+    hr {
+      background: #EBEBEB;
+    }
+  }
+</style>
+
+
+    </head>
+
+  <body>
+    <section id=nav>
+      <h1><a class="h-card" href="http://localhost:1313/">sean&#39;s archive</a></h1>
+      <ul>
+        
+      </ul>
+    </section>
+
+
+<section id=content>
+  <h1> Yet Again </h1>
+
+  
+    <div id=sub-header>
+      March 2026 · 3 minute read
+    </div>
+  
+
+  <div class="entry-content">
+    <h2 id="things-wouldnt-just-let-me-live-in-peace">Things wouldn&rsquo;t just let me live in peace</h2>
+<p>As you might&rsquo;ve known already, my mind has been a cluttered mess since God knows when. A lot has been bothering me and I&rsquo;m tired of it.</p>
+<p>People, family even, makes me lose hope of what morals are supposed to be. They tell me to not get pressured while putting the name as to start a legacy, or to end a bad one, somehow. Prioritizing what people would feel when I finally commit suicide than making sure that I can think right and pull shit up from the root. It makes me feel stupid, surrounded by people with twisted morals seeing themselves as saviors. Hell, I can assure myself anytime I could do even better for myself.</p>
+<p>What I hate about this thinking is that I feel pressured to just take it all without remorse, or else I&rsquo;ll be ungrateful of them being there for me materially, since that&rsquo;s their sole responsibility anyway.</p>
+<p>Well, regardless of how I feel about my environment, everything just kept nudging me. I couldn&rsquo;t handle it as effectively as before. I felt like I had no one to rely and lay my head on. I&rsquo;m in a pace where no one exists, not even me. I always looked back in the past, and looked to the future, well, less, but the point I&rsquo;m emphasizing is that I didn&rsquo;t feel grounded anymore like I always am when a pal needs someone.</p>
+<p>I only wanted to have somebody like me in my life that tries everything I can to look inside. Hopelessness is the only thing this shithole had managed to give me, excuses to let things go for good. So I attempted suicide again. I took several days worth of medicines in attempt to overdose, and all I received is nothing, not even holistic care, the only thing I was looking for when I was at my lowest.</p>
+<p>All the world does is disappoint me instead of helping me to stand on my own feet. Everything I do seem to be just for others now. I don&rsquo;t even know how to take care of myself anymore. God forbid something like this makes an excuse for it to happen again. I feel hopeless about the people around me, yet they all remind me of only themselves. I don&rsquo;t give a shit if one feels sad for themself anymore if something happens to me, for fuck&rsquo;s sake I&rsquo;m already dead, and you&rsquo;re still making me understand others as priority when I&rsquo;m the one who&rsquo;s struggling to walk on my own like a goddamn toddler.</p>
+<p>I don&rsquo;t get what&rsquo;s wrong with everything, and everything still makes me wonder if I should keep on moving blindfolded or if I should just let things go in two different ways.</p>
+
+  </div>
+
+  <div id=links>
+    
+    
+  </div>
+</section>
+
+
+  
+
+
+</body>
+</html>
+
+
+
